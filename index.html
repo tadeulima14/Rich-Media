@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RICH MEDIA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>VIDEO/MUSIC PLAYER</h1>
+    </header>
+
+    <section class="myvid">
+
+        <video id="video-1" width="600" controls>
+            <source src="assets/lemonde-reel.mp4" type="video/mov">
+        </video>
+
+        <div id="controls" class="'controls">
+
+            <form id="video-form" class="form">
+
+
+                <fieldset> <!-- media format selection-->
+
+                    <select id="video_select" class="formatting">
+                        <option>Select a video format...</option>
+                        <option value="assets/lemonde-reel.mp4">(mp4) version</option>
+                    </select>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <select id="music-select" class="music-formatting">
+                        <option>Select music to play...</option>
+                        <option value="assets/blueskyfinal.mp3">Mr Blue Sky intro</option>
+                        <option value="assets/blueskysolofinal.mp3">Mr Blue sky Solo</option>
+                    </select>
+
+                </fieldset>
+          
+            
+                    <script src="js/main.js"></script>
+                </div>
+
+                <fieldset class="button-ui"> <!--Buttons-->
+                    <input type="button" id="play_button" onclick="" class="play_button" value="Play">
+                    <input type="button" id="pause_button" class="pause_button" onclick="" value="Pause">
+                    <input type="button" id="mute" class="mute" onclick="" value="Mute">
+                    <input type="button" id="unmute" class="unmute" onclick="" value="Unmute">
+                    <input type="button" id="rewind" class="rewind" onclick="" value="Beginning">
+                    <input type="button" id="end" class="end" onclick="" value="End" >
+                    <input type="button" id="seek" class="seek" onclick="" value="Go to Statistics">
+                </fieldset>
+
+            </form>
+</body>
+</html>
